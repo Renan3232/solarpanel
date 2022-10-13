@@ -39,3 +39,60 @@ li a {
 li a:hover:not(.active) {
     background-color: gray;
   }
+
+  /* Landing page */
+
+  .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.solyndra.com/wp-content/uploads/2019/11/How-Green-Are-Solar-Panels-scaled.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #4D866A;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .hero-text a {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .wrapper-testimonials {
+    display: flex;
+    flex-direction: row;
+  }
+   .wrapper-testimonials p {
+    padding: 10px;
+   }
+
+  .testimonials h3 {
+    text-transform: uppercase;
+    width: 100vw;
+    margin: 20px auto;
+  }
